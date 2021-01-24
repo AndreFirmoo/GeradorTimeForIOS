@@ -11,7 +11,6 @@ class HomeCoordinator: Coordinator {
     var navigationController: UINavigationController?
     
     func start() {
-        <#code#>
     }
     
     
