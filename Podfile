@@ -18,6 +18,7 @@ target 'GeradorTime' do
   # For example, to use Firebase Authentication and Cloud Firestore
   pod 'Firebase/Auth'
   pod 'Firebase/Firestore'
+  pod 'Firebase/Storage'
   target 'GeradorTimeUITests' do
     # Pods for testing
   end
