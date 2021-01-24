@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -20,6 +20,8 @@
 		283C572125B3CF2C008ACBFD /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 283C571F25B3CF2C008ACBFD /* HomeViewController.swift */; };
 		283C572225B3CF2C008ACBFD /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 283C572025B3CF2C008ACBFD /* HomeViewController.xib */; };
 		283C572725B3D1C9008ACBFD /* HomeCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 283C572625B3D1C9008ACBFD /* HomeCoordinator.swift */; };
+		28C7D38225BD066800B60A63 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 28C7D38125BD066800B60A63 /* GoogleService-Info.plist */; };
+		28C7D3B625BD0EB000B60A63 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 28C7D3B525BD0EB000B60A63 /* .gitignore */; };
 		3332A251C917700B7C05806F /* Pods_GeradorTimeTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7307919ACDBCD1F0DC6467D0 /* Pods_GeradorTimeTests.framework */; };
 		AC7CC746AB035E134C8F923C /* Pods_GeradorTime.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C06BFF311CF25DB50B8583CE /* Pods_GeradorTime.framework */; };
 /* End PBXBuildFile section */
@@ -63,6 +65,8 @@
 		283C572025B3CF2C008ACBFD /* HomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
 		283C572625B3D1C9008ACBFD /* HomeCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCoordinator.swift; sourceTree = "<group>"; };
 		2898FC84ADE04AD10710D94E /* Pods-GeradorTimeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GeradorTimeTests.debug.xcconfig"; path = "Target Support Files/Pods-GeradorTimeTests/Pods-GeradorTimeTests.debug.xcconfig"; sourceTree = "<group>"; };
+		28C7D38125BD066800B60A63 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		28C7D3B525BD0EB000B60A63 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		2AF541DDCC2EBF5CF8811B88 /* Pods-GeradorTimeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GeradorTimeTests.release.xcconfig"; path = "Target Support Files/Pods-GeradorTimeTests/Pods-GeradorTimeTests.release.xcconfig"; sourceTree = "<group>"; };
 		6AEB11986A5FB0330009887B /* Pods-GeradorTime-GeradorTimeUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GeradorTime-GeradorTimeUITests.debug.xcconfig"; path = "Target Support Files/Pods-GeradorTime-GeradorTimeUITests/Pods-GeradorTime-GeradorTimeUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		7307919ACDBCD1F0DC6467D0 /* Pods_GeradorTimeTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GeradorTimeTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -102,6 +106,7 @@
 		283C56C625B3BD26008ACBFD = {
 			isa = PBXGroup;
 			children = (
+				28C7D3B525BD0EB000B60A63 /* .gitignore */,
 				283C56D125B3BD26008ACBFD /* GeradorTime */,
 				283C56EB25B3BD27008ACBFD /* GeradorTimeTests */,
 				283C56F625B3BD27008ACBFD /* GeradorTimeUITests */,
@@ -131,6 +136,7 @@
 				283C56DE25B3BD27008ACBFD /* Assets.xcassets */,
 				283C56E025B3BD27008ACBFD /* LaunchScreen.storyboard */,
 				283C56E325B3BD27008ACBFD /* Info.plist */,
+				28C7D38125BD066800B60A63 /* GoogleService-Info.plist */,
 				283C56DB25B3BD26008ACBFD /* GeradorTime.xcdatamodeld */,
 			);
 			path = GeradorTime;
@@ -209,7 +215,6 @@
 				2898FC84ADE04AD10710D94E /* Pods-GeradorTimeTests.debug.xcconfig */,
 				2AF541DDCC2EBF5CF8811B88 /* Pods-GeradorTimeTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -224,6 +229,7 @@
 				283C56CB25B3BD26008ACBFD /* Sources */,
 				283C56CC25B3BD26008ACBFD /* Frameworks */,
 				283C56CD25B3BD26008ACBFD /* Resources */,
+				94EBC0D73818D489D2F3BFA8 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -261,6 +267,7 @@
 				283C56EF25B3BD27008ACBFD /* Sources */,
 				283C56F025B3BD27008ACBFD /* Frameworks */,
 				283C56F125B3BD27008ACBFD /* Resources */,
+				56F0F92927B52FE4EFC9C8C8 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -319,7 +326,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				28C7D3B625BD0EB000B60A63 /* .gitignore in Resources */,
 				283C56E225B3BD27008ACBFD /* LaunchScreen.storyboard in Resources */,
+				28C7D38225BD066800B60A63 /* GoogleService-Info.plist in Resources */,
 				283C56DF25B3BD27008ACBFD /* Assets.xcassets in Resources */,
 				283C572225B3CF2C008ACBFD /* HomeViewController.xib in Resources */,
 			);
@@ -364,6 +373,23 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		56F0F92927B52FE4EFC9C8C8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GeradorTime-GeradorTimeUITests/Pods-GeradorTime-GeradorTimeUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GeradorTime-GeradorTimeUITests/Pods-GeradorTime-GeradorTimeUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GeradorTime-GeradorTimeUITests/Pods-GeradorTime-GeradorTimeUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		5DD55D54FF62D677CD87DD8B /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -406,6 +432,23 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		94EBC0D73818D489D2F3BFA8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GeradorTime/Pods-GeradorTime-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GeradorTime/Pods-GeradorTime-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GeradorTime/Pods-GeradorTime-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
