@@ -1,0 +1,6 @@
+framework module Pods_GeradorTime {
+  umbrella header "Pods-GeradorTime-umbrella.h"
+
+  export *
+  module * { export * }
+}

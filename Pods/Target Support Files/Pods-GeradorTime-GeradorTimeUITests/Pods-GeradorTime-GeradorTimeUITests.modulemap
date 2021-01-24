@@ -1,0 +1,6 @@
+framework module Pods_GeradorTime_GeradorTimeUITests {
+  umbrella header "Pods-GeradorTime-GeradorTimeUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

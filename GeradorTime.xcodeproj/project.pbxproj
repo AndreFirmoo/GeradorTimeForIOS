@@ -1,0 +1,770 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		188654A81D5C4C925E9100D0 /* Pods_GeradorTime_GeradorTimeUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26AF51D5CE654A8A39DD683F /* Pods_GeradorTime_GeradorTimeUITests.framework */; };
+		283C56D325B3BD26008ACBFD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 283C56D225B3BD26008ACBFD /* AppDelegate.swift */; };
+		283C56D525B3BD26008ACBFD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 283C56D425B3BD26008ACBFD /* SceneDelegate.swift */; };
+		283C56DD25B3BD26008ACBFD /* GeradorTime.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 283C56DB25B3BD26008ACBFD /* GeradorTime.xcdatamodeld */; };
+		283C56DF25B3BD27008ACBFD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 283C56DE25B3BD27008ACBFD /* Assets.xcassets */; };
+		283C56E225B3BD27008ACBFD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 283C56E025B3BD27008ACBFD /* LaunchScreen.storyboard */; };
+		283C56ED25B3BD27008ACBFD /* GeradorTimeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 283C56EC25B3BD27008ACBFD /* GeradorTimeTests.swift */; };
+		283C56F825B3BD27008ACBFD /* GeradorTimeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 283C56F725B3BD27008ACBFD /* GeradorTimeUITests.swift */; };
+		283C571025B3BFD0008ACBFD /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 283C570F25B3BFD0008ACBFD /* Coordinator.swift */; };
+		283C571825B3BFE8008ACBFD /* AppFlowCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 283C571725B3BFE8008ACBFD /* AppFlowCoordinator.swift */; };
+		283C572125B3CF2C008ACBFD /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 283C571F25B3CF2C008ACBFD /* HomeViewController.swift */; };
+		283C572225B3CF2C008ACBFD /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 283C572025B3CF2C008ACBFD /* HomeViewController.xib */; };
+		283C572725B3D1C9008ACBFD /* HomeCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 283C572625B3D1C9008ACBFD /* HomeCoordinator.swift */; };
+		3332A251C917700B7C05806F /* Pods_GeradorTimeTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7307919ACDBCD1F0DC6467D0 /* Pods_GeradorTimeTests.framework */; };
+		AC7CC746AB035E134C8F923C /* Pods_GeradorTime.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C06BFF311CF25DB50B8583CE /* Pods_GeradorTime.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		283C56E925B3BD27008ACBFD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 283C56C725B3BD26008ACBFD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 283C56CE25B3BD26008ACBFD;
+			remoteInfo = GeradorTime;
+		};
+		283C56F425B3BD27008ACBFD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 283C56C725B3BD26008ACBFD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 283C56CE25B3BD26008ACBFD;
+			remoteInfo = GeradorTime;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		08918541B4FA3B63871825B0 /* Pods-GeradorTime.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GeradorTime.release.xcconfig"; path = "Target Support Files/Pods-GeradorTime/Pods-GeradorTime.release.xcconfig"; sourceTree = "<group>"; };
+		26AF51D5CE654A8A39DD683F /* Pods_GeradorTime_GeradorTimeUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GeradorTime_GeradorTimeUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		283C56CF25B3BD26008ACBFD /* GeradorTime.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GeradorTime.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		283C56D225B3BD26008ACBFD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		283C56D425B3BD26008ACBFD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		283C56DC25B3BD26008ACBFD /* GeradorTime.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = GeradorTime.xcdatamodel; sourceTree = "<group>"; };
+		283C56DE25B3BD27008ACBFD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		283C56E125B3BD27008ACBFD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		283C56E325B3BD27008ACBFD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		283C56E825B3BD27008ACBFD /* GeradorTimeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GeradorTimeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		283C56EC25B3BD27008ACBFD /* GeradorTimeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeradorTimeTests.swift; sourceTree = "<group>"; };
+		283C56EE25B3BD27008ACBFD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		283C56F325B3BD27008ACBFD /* GeradorTimeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GeradorTimeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		283C56F725B3BD27008ACBFD /* GeradorTimeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeradorTimeUITests.swift; sourceTree = "<group>"; };
+		283C56F925B3BD27008ACBFD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		283C570F25B3BFD0008ACBFD /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		283C571725B3BFE8008ACBFD /* AppFlowCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppFlowCoordinator.swift; sourceTree = "<group>"; };
+		283C571F25B3CF2C008ACBFD /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		283C572025B3CF2C008ACBFD /* HomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
+		283C572625B3D1C9008ACBFD /* HomeCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCoordinator.swift; sourceTree = "<group>"; };
+		2898FC84ADE04AD10710D94E /* Pods-GeradorTimeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GeradorTimeTests.debug.xcconfig"; path = "Target Support Files/Pods-GeradorTimeTests/Pods-GeradorTimeTests.debug.xcconfig"; sourceTree = "<group>"; };
+		2AF541DDCC2EBF5CF8811B88 /* Pods-GeradorTimeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GeradorTimeTests.release.xcconfig"; path = "Target Support Files/Pods-GeradorTimeTests/Pods-GeradorTimeTests.release.xcconfig"; sourceTree = "<group>"; };
+		6AEB11986A5FB0330009887B /* Pods-GeradorTime-GeradorTimeUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GeradorTime-GeradorTimeUITests.debug.xcconfig"; path = "Target Support Files/Pods-GeradorTime-GeradorTimeUITests/Pods-GeradorTime-GeradorTimeUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		7307919ACDBCD1F0DC6467D0 /* Pods_GeradorTimeTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GeradorTimeTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		78AC144EB2D56498B5A62DFA /* Pods-GeradorTime-GeradorTimeUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GeradorTime-GeradorTimeUITests.release.xcconfig"; path = "Target Support Files/Pods-GeradorTime-GeradorTimeUITests/Pods-GeradorTime-GeradorTimeUITests.release.xcconfig"; sourceTree = "<group>"; };
+		99C47EAB6E7D551C00FAF43A /* Pods-GeradorTime.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GeradorTime.debug.xcconfig"; path = "Target Support Files/Pods-GeradorTime/Pods-GeradorTime.debug.xcconfig"; sourceTree = "<group>"; };
+		C06BFF311CF25DB50B8583CE /* Pods_GeradorTime.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GeradorTime.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		283C56CC25B3BD26008ACBFD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC7CC746AB035E134C8F923C /* Pods_GeradorTime.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		283C56E525B3BD27008ACBFD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3332A251C917700B7C05806F /* Pods_GeradorTimeTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		283C56F025B3BD27008ACBFD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				188654A81D5C4C925E9100D0 /* Pods_GeradorTime_GeradorTimeUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		283C56C625B3BD26008ACBFD = {
+			isa = PBXGroup;
+			children = (
+				283C56D125B3BD26008ACBFD /* GeradorTime */,
+				283C56EB25B3BD27008ACBFD /* GeradorTimeTests */,
+				283C56F625B3BD27008ACBFD /* GeradorTimeUITests */,
+				283C56D025B3BD26008ACBFD /* Products */,
+				7897BE8E1B7A5BB3DE632BB9 /* Pods */,
+				41A1A8E8ED38103FF17C2212 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		283C56D025B3BD26008ACBFD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				283C56CF25B3BD26008ACBFD /* GeradorTime.app */,
+				283C56E825B3BD27008ACBFD /* GeradorTimeTests.xctest */,
+				283C56F325B3BD27008ACBFD /* GeradorTimeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		283C56D125B3BD26008ACBFD /* GeradorTime */ = {
+			isa = PBXGroup;
+			children = (
+				283C571C25B3CE5F008ACBFD /* Scenes */,
+				283C570E25B3BF7F008ACBFD /* Coordinator */,
+				283C56D225B3BD26008ACBFD /* AppDelegate.swift */,
+				283C56D425B3BD26008ACBFD /* SceneDelegate.swift */,
+				283C56DE25B3BD27008ACBFD /* Assets.xcassets */,
+				283C56E025B3BD27008ACBFD /* LaunchScreen.storyboard */,
+				283C56E325B3BD27008ACBFD /* Info.plist */,
+				283C56DB25B3BD26008ACBFD /* GeradorTime.xcdatamodeld */,
+			);
+			path = GeradorTime;
+			sourceTree = "<group>";
+		};
+		283C56EB25B3BD27008ACBFD /* GeradorTimeTests */ = {
+			isa = PBXGroup;
+			children = (
+				283C56EC25B3BD27008ACBFD /* GeradorTimeTests.swift */,
+				283C56EE25B3BD27008ACBFD /* Info.plist */,
+			);
+			path = GeradorTimeTests;
+			sourceTree = "<group>";
+		};
+		283C56F625B3BD27008ACBFD /* GeradorTimeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				283C56F725B3BD27008ACBFD /* GeradorTimeUITests.swift */,
+				283C56F925B3BD27008ACBFD /* Info.plist */,
+			);
+			path = GeradorTimeUITests;
+			sourceTree = "<group>";
+		};
+		283C570E25B3BF7F008ACBFD /* Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+				283C570F25B3BFD0008ACBFD /* Coordinator.swift */,
+				283C571725B3BFE8008ACBFD /* AppFlowCoordinator.swift */,
+			);
+			path = Coordinator;
+			sourceTree = "<group>";
+		};
+		283C571C25B3CE5F008ACBFD /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				283C571E25B3CEF3008ACBFD /* Times */,
+				283C571D25B3CEE9008ACBFD /* Home */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		283C571D25B3CEE9008ACBFD /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				283C571F25B3CF2C008ACBFD /* HomeViewController.swift */,
+				283C572025B3CF2C008ACBFD /* HomeViewController.xib */,
+				283C572625B3D1C9008ACBFD /* HomeCoordinator.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		283C571E25B3CEF3008ACBFD /* Times */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Times;
+			sourceTree = "<group>";
+		};
+		41A1A8E8ED38103FF17C2212 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C06BFF311CF25DB50B8583CE /* Pods_GeradorTime.framework */,
+				26AF51D5CE654A8A39DD683F /* Pods_GeradorTime_GeradorTimeUITests.framework */,
+				7307919ACDBCD1F0DC6467D0 /* Pods_GeradorTimeTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7897BE8E1B7A5BB3DE632BB9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				99C47EAB6E7D551C00FAF43A /* Pods-GeradorTime.debug.xcconfig */,
+				08918541B4FA3B63871825B0 /* Pods-GeradorTime.release.xcconfig */,
+				6AEB11986A5FB0330009887B /* Pods-GeradorTime-GeradorTimeUITests.debug.xcconfig */,
+				78AC144EB2D56498B5A62DFA /* Pods-GeradorTime-GeradorTimeUITests.release.xcconfig */,
+				2898FC84ADE04AD10710D94E /* Pods-GeradorTimeTests.debug.xcconfig */,
+				2AF541DDCC2EBF5CF8811B88 /* Pods-GeradorTimeTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		283C56CE25B3BD26008ACBFD /* GeradorTime */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 283C56FC25B3BD27008ACBFD /* Build configuration list for PBXNativeTarget "GeradorTime" */;
+			buildPhases = (
+				5DD55D54FF62D677CD87DD8B /* [CP] Check Pods Manifest.lock */,
+				283C56CB25B3BD26008ACBFD /* Sources */,
+				283C56CC25B3BD26008ACBFD /* Frameworks */,
+				283C56CD25B3BD26008ACBFD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GeradorTime;
+			productName = GeradorTime;
+			productReference = 283C56CF25B3BD26008ACBFD /* GeradorTime.app */;
+			productType = "com.apple.product-type.application";
+		};
+		283C56E725B3BD27008ACBFD /* GeradorTimeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 283C56FF25B3BD27008ACBFD /* Build configuration list for PBXNativeTarget "GeradorTimeTests" */;
+			buildPhases = (
+				46A10516FD72627829CF1A6F /* [CP] Check Pods Manifest.lock */,
+				283C56E425B3BD27008ACBFD /* Sources */,
+				283C56E525B3BD27008ACBFD /* Frameworks */,
+				283C56E625B3BD27008ACBFD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				283C56EA25B3BD27008ACBFD /* PBXTargetDependency */,
+			);
+			name = GeradorTimeTests;
+			productName = GeradorTimeTests;
+			productReference = 283C56E825B3BD27008ACBFD /* GeradorTimeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		283C56F225B3BD27008ACBFD /* GeradorTimeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 283C570225B3BD27008ACBFD /* Build configuration list for PBXNativeTarget "GeradorTimeUITests" */;
+			buildPhases = (
+				79D1B76D1479865A478AD492 /* [CP] Check Pods Manifest.lock */,
+				283C56EF25B3BD27008ACBFD /* Sources */,
+				283C56F025B3BD27008ACBFD /* Frameworks */,
+				283C56F125B3BD27008ACBFD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				283C56F525B3BD27008ACBFD /* PBXTargetDependency */,
+			);
+			name = GeradorTimeUITests;
+			productName = GeradorTimeUITests;
+			productReference = 283C56F325B3BD27008ACBFD /* GeradorTimeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		283C56C725B3BD26008ACBFD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1220;
+				LastUpgradeCheck = 1220;
+				TargetAttributes = {
+					283C56CE25B3BD26008ACBFD = {
+						CreatedOnToolsVersion = 12.2;
+					};
+					283C56E725B3BD27008ACBFD = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = 283C56CE25B3BD26008ACBFD;
+					};
+					283C56F225B3BD27008ACBFD = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = 283C56CE25B3BD26008ACBFD;
+					};
+				};
+			};
+			buildConfigurationList = 283C56CA25B3BD26008ACBFD /* Build configuration list for PBXProject "GeradorTime" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 283C56C625B3BD26008ACBFD;
+			productRefGroup = 283C56D025B3BD26008ACBFD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				283C56CE25B3BD26008ACBFD /* GeradorTime */,
+				283C56E725B3BD27008ACBFD /* GeradorTimeTests */,
+				283C56F225B3BD27008ACBFD /* GeradorTimeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		283C56CD25B3BD26008ACBFD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				283C56E225B3BD27008ACBFD /* LaunchScreen.storyboard in Resources */,
+				283C56DF25B3BD27008ACBFD /* Assets.xcassets in Resources */,
+				283C572225B3CF2C008ACBFD /* HomeViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		283C56E625B3BD27008ACBFD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		283C56F125B3BD27008ACBFD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		46A10516FD72627829CF1A6F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GeradorTimeTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5DD55D54FF62D677CD87DD8B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GeradorTime-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		79D1B76D1479865A478AD492 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GeradorTime-GeradorTimeUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		283C56CB25B3BD26008ACBFD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				283C571025B3BFD0008ACBFD /* Coordinator.swift in Sources */,
+				283C56D325B3BD26008ACBFD /* AppDelegate.swift in Sources */,
+				283C571825B3BFE8008ACBFD /* AppFlowCoordinator.swift in Sources */,
+				283C56D525B3BD26008ACBFD /* SceneDelegate.swift in Sources */,
+				283C56DD25B3BD26008ACBFD /* GeradorTime.xcdatamodeld in Sources */,
+				283C572725B3D1C9008ACBFD /* HomeCoordinator.swift in Sources */,
+				283C572125B3CF2C008ACBFD /* HomeViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		283C56E425B3BD27008ACBFD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				283C56ED25B3BD27008ACBFD /* GeradorTimeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		283C56EF25B3BD27008ACBFD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				283C56F825B3BD27008ACBFD /* GeradorTimeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		283C56EA25B3BD27008ACBFD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 283C56CE25B3BD26008ACBFD /* GeradorTime */;
+			targetProxy = 283C56E925B3BD27008ACBFD /* PBXContainerItemProxy */;
+		};
+		283C56F525B3BD27008ACBFD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 283C56CE25B3BD26008ACBFD /* GeradorTime */;
+			targetProxy = 283C56F425B3BD27008ACBFD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		283C56E025B3BD27008ACBFD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				283C56E125B3BD27008ACBFD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		283C56FA25B3BD27008ACBFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		283C56FB25B3BD27008ACBFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		283C56FD25B3BD27008ACBFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 99C47EAB6E7D551C00FAF43A /* Pods-GeradorTime.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D73SZWFV4A;
+				INFOPLIST_FILE = GeradorTime/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = nerdHelpSolution.GeradorTime;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		283C56FE25B3BD27008ACBFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 08918541B4FA3B63871825B0 /* Pods-GeradorTime.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D73SZWFV4A;
+				INFOPLIST_FILE = GeradorTime/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = nerdHelpSolution.GeradorTime;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		283C570025B3BD27008ACBFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2898FC84ADE04AD10710D94E /* Pods-GeradorTimeTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D73SZWFV4A;
+				INFOPLIST_FILE = GeradorTimeTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = nerdHelpSolution.GeradorTimeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GeradorTime.app/GeradorTime";
+			};
+			name = Debug;
+		};
+		283C570125B3BD27008ACBFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2AF541DDCC2EBF5CF8811B88 /* Pods-GeradorTimeTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D73SZWFV4A;
+				INFOPLIST_FILE = GeradorTimeTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = nerdHelpSolution.GeradorTimeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GeradorTime.app/GeradorTime";
+			};
+			name = Release;
+		};
+		283C570325B3BD27008ACBFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6AEB11986A5FB0330009887B /* Pods-GeradorTime-GeradorTimeUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D73SZWFV4A;
+				INFOPLIST_FILE = GeradorTimeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = nerdHelpSolution.GeradorTimeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GeradorTime;
+			};
+			name = Debug;
+		};
+		283C570425B3BD27008ACBFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 78AC144EB2D56498B5A62DFA /* Pods-GeradorTime-GeradorTimeUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D73SZWFV4A;
+				INFOPLIST_FILE = GeradorTimeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = nerdHelpSolution.GeradorTimeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GeradorTime;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		283C56CA25B3BD26008ACBFD /* Build configuration list for PBXProject "GeradorTime" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				283C56FA25B3BD27008ACBFD /* Debug */,
+				283C56FB25B3BD27008ACBFD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		283C56FC25B3BD27008ACBFD /* Build configuration list for PBXNativeTarget "GeradorTime" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				283C56FD25B3BD27008ACBFD /* Debug */,
+				283C56FE25B3BD27008ACBFD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		283C56FF25B3BD27008ACBFD /* Build configuration list for PBXNativeTarget "GeradorTimeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				283C570025B3BD27008ACBFD /* Debug */,
+				283C570125B3BD27008ACBFD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		283C570225B3BD27008ACBFD /* Build configuration list for PBXNativeTarget "GeradorTimeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				283C570325B3BD27008ACBFD /* Debug */,
+				283C570425B3BD27008ACBFD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		283C56DB25B3BD26008ACBFD /* GeradorTime.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				283C56DC25B3BD26008ACBFD /* GeradorTime.xcdatamodel */,
+			);
+			currentVersion = 283C56DC25B3BD26008ACBFD /* GeradorTime.xcdatamodel */;
+			path = GeradorTime.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 283C56C725B3BD26008ACBFD /* Project object */;
+}
